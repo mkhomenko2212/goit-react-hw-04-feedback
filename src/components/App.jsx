@@ -52,7 +52,8 @@ render() {
   return (
     <>
       <Section title='Please leave feedback'>
-        <FeedbackOptions options={Object.keys(this.state)}
+        <FeedbackOptions
+          options={Object.keys(this.state)}
           onLeaveFeedback={this.counterOfFeedback}> 
         </FeedbackOptions>
       </Section>
